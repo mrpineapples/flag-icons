@@ -1900,6 +1900,13 @@
   background-image: url(../flags/1x1/sh-ta.svg);
 }
 
+.fi-tz-zan {
+  background-image: url(../flags/4x3/tz-zan.svg);
+}
+.fi-tz-zan.fis {
+  background-image: url(../flags/1x1/tz-zan.svg);
+}
+
 .fi-un {
   background-image: url(../flags/4x3/un.svg);
 }
