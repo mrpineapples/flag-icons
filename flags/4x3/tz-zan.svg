@@ -1,8 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480">
-  <path fill="#1eb53a" d="M0 0h720v480H0z"/>
-  <path fill="#00a3dd" d="M0 160h240V0"/>
-  <path fill="none" stroke="#fcd116" stroke-width="63.3" d="M0 160 240 0"/>
-  <path fill="none" stroke="#000001" stroke-width="43.3" d="M0 160 240 0"/>
-  <path fill="#0093cd" d="M240 0v160h480V0"/>
-  <path fill="#000001" d="M0 160h720v160H0z"/>
+  <defs>
+    <clipPath id="tz-zan-a">
+      <path d="M0 0h240v160H0z"/>
+    </clipPath>
+  </defs>
+  <path fill="#1eb53a" d="M0 0h640v480H0z"/>
+  <g clip-path="url(#tz-zan-a)">
+    <path fill="#00a3dd" d="M0 160h240V0"/>
+    <path fill="none" stroke="#fcd116" stroke-width="63.3" d="M0 160 240 0"/>
+    <path fill="none" stroke="#000001" stroke-width="43.3" d="M0 160 240 0"/>
+  </g>
+  <path fill="#0093cd" d="M240 0v160h400V0"/>
+  <path fill="#000001" d="M0 160h640v160H0z"/>
 </svg>
